@@ -1,0 +1,57 @@
+.button {
+    background-color: none;
+    float: right;
+    width: 5%;
+    height: 5%;
+    border-style: none;
+    padding-right: 1em;
+
+}
+h1 {
+  background-color: rgb(250, 104, 59);
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+
+h3 {
+    background-color: rgb(202, 162, 103);
+    display: inline-block;
+    font-family: 'Lobster Two', cursive;
+}
+
+body {
+    background-color: #f2e6dd;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+
+}
+
+img {
+  border-style: double;
+  display: flex;
+  width: -moz-fit-content;
+  height: 30vh;
+
+}
+
+article {
+   border-style: ridge ; 
+   border-width: thin;
+   padding: 1em;
+   display: flex;
+   margin: 5px;
+   /* overflow: hidden; */
+   background-color: #b9a393;
+}
+
+div {
+    float: right;
+    padding-left: 15px;
+   
+}
+
+footer {
+    text-align: center;
+}
