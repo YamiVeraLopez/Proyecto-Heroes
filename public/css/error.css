@@ -1,0 +1,17 @@
+body {
+    background-color: red;
+    background-image: url(/gifs/casa_flotante.gif);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 30%;
+    
+}
+
+div {
+    margin-top: 20%;
+    color: white;
+    text-anchor: 20%;
+    text-shadow: 2px 2px 2px rgb(25, 243, 177);
+}

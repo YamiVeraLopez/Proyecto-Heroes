@@ -39,6 +39,10 @@ app.get('/turing', (req, res) => {
     res.sendFile(path.join(__dirname, './views/turing.html'))
 })
 
+app.get('*', (req, res) => {
+    res.sendFile(path.join(__dirname, './views/error.html'))
+})
+
 app.listen(port, () => {
     console.log("Servidor corriendo");
 })
